@@ -128,7 +128,6 @@ export default class Column extends Component {
 				  styles.masonry__column
 			  ]}>
 			  <FlatList
-			        removeClippedSubviews={true}
 				key={this.props.columnKey}
 				data={this.state.images}
 				keyExtractor={this._keyExtractor}
